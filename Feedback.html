@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./Style/Style.css">
+    <link rel="stylesheet" href="./Library/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+ 
+   <style>
+
+   </style>
+
+</head>
+<body class="container" >
+   
+    <nav>
+        <div class="navrow">
+         <div class="navLinks">
+             <div>
+                 <a href="./index.html"> Home</a>
+             </div>
+             <div>
+                 <a href="./aboutus.html">AboutUs</a>
+             </div>
+             <div>
+                 <a href="#Contact">Contact</a>
+             </div>
+         </div>
+         <div class="navLinks">
+          
+             <div>
+                 <a href="./Login.html">Login</a>
+             </div>
+           
+         </div>
+        </div>
+     </nav>
+    <main>
+    
+       <div class="event-sec">
+        <Form>
+            <div class="feed-form">
+            <fieldset>
+                <legend class="red-text">Personal Information </legend>
+        
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+        
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email">
+            </fieldset>
+        
+            <legend class="red-text">Feedback</legend>
+
+            <label class="discoveryMethod"> How did you discover our website? </label>  
+            <div>
+            <label class="inline-label"><input type="radio" name="discoveryMethod" value="search-engine"> Search Engine ( Google )</label>
+            <label class="inline-label"><input type="radio" name="discoveryMethod" value="social-media"> Social Media (Instgram, X)</label>
+            <label class="inline-label"><input type="radio" name="discoveryMethod" value="direct"> Direct ( visiting directly)</label>
+            <label class="inline-label"><input type="radio" name="discoveryMethod" value="other"> Other </label>
+        
+           </div>
+               <div class="preference">
+            <label class="highlighted-text"> What cities do you want to visit?</label>
+
+            <label class="inline-label"><input type="checkbox" name="preference" value="jeddah"> Jeddah</label>
+            <label class="inline-label"><input type="checkbox" name="preference" value="riyadh"> Riyadh</label>
+            <label class="inline-label"><input type="checkbox" name="preference" value="alula"> Al-Ula</label>
+            <label class="inline-label"><input type="checkbox" name="preference" value="dammam"> Dammam</label>
+            <label class="inline-label"><input type="checkbox" name="preference" value="almadinah"> AL Madinah</label>
+        </div>
+        <br> 
+            <fieldset>
+                <label for="serviceType" class="highlighted-text">Type of Service:</label>
+                <select id="serviceType" name="serviceType">
+                    <option value="events">Events</option>
+                    <option value="restaurants">Restaurants</option>
+                    <option value="cafes">Cafes</option>
+                    <option value="hotels">Hotels</option>
+                    <option value="carRentals">Car Rentals</option>
+                </select>
+                <label for="comments" class="red-text">Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            
+            </fieldset>
+        
+            <button type="submit" class="submit-btn">Submit</button>
+        </div>
+        </Form>
+         
+       </div>    
+    </main>
+    <footer>
+        <div id="Contact">
+            <div class="social-list">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="../Images/twitter.svg" alt="twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../Images/instagram.svg" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="../Images/social.svg" alt="Snapchat">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:someone@example.com">
+                            <img src="../Images/gmail.svg" alt="mail">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+           
+        </div>
+    </footer>
+
+    <script src="../Library/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>   
+
+
